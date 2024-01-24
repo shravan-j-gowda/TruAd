@@ -1,0 +1,49 @@
+/* src/Home.css */
+
+#home-page {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  #home-page h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  #home-page button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #home-page button:hover {
+    background-color: #ff3c26;
+  }
+  
+  /* Signout button at top right corner */
+  #signout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #signout-btn:hover {
+    background-color: #ff3c26;
+  }
+  
